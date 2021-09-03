@@ -1,0 +1,5 @@
+alias project="sudo ENV_FILE=.env docker-compose -f docker-compose.yml"
+alias project-up="project up --build -d"
+alias project-logs="project logs -f"
+alias project-frc="project-up --force-recreate"
+alias project-frc-nd="project-frc --no-deps"

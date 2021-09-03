@@ -1,0 +1,11 @@
+body {
+  background-color: #f1faee;
+}
+
+.ip {
+  width: 200px;
+  display: block;
+  color: #d62828;
+  margin-left: auto;
+  margin-right: auto;
+}

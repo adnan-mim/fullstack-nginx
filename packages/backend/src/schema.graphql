@@ -1,0 +1,7 @@
+type IpType {
+  ip: String
+}
+
+type Query {
+  userIp: IpType!
+}
